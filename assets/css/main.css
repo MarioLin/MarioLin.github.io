@@ -1,0 +1,52 @@
+#footer {
+	color:#9999FF;
+}
+
+#footer .text-center {
+	padding-top: 10px;
+	font-size: 15px;
+}
+.navbar-inverse {
+	background-color: #9999FF;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: "Lucida Console";
+	font-weight: 700;
+	letter-spacing: 2px;
+
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+	font-family: "Lucida Console";
+    font-weight: 700;
+
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+#my_img {
+    border-radius: 50%;
+}
+
+#welcome { 
+	padding-top: 20px;
+	padding-bottom: 70px;
+	font-family: "Lucida Console" }
+
+.text-center h1 {
+	padding-bottom: 20px;
+	font-size: 50px;}
+
+.navbar-fixed-bottom {
+	background-color: #E6E6FF;
+}
+
+span{
+    margin-right: 10px;
+}
