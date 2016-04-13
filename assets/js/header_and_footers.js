@@ -1,33 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ML's website home page.">
-    <meta name="author" content="Mario Lin">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-
-    <title>Mario Lin</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-
-  </head>
-
-  <body>
 	
-	<div id="wrapper">
+var header = '
 	    <!-- Static navbar -->
-	    <div id="hheader">
 		    <div class="navbar navbar-inverse navbar-static-top">
 		      <div class="container">
 		        <div class="navbar-header">
@@ -46,10 +19,9 @@
 		          </ul>
 		        </div><!--/.nav-collapse -->
 		      </div>
-		    </div>
-	    </div>
+	    '
 
-		<div id="footer">
+var footer= '<div id="footer">
 			<div class="container">
 				<div class="navbar navbar-fixed-bottom"
 					<div class="row">
@@ -76,12 +48,4 @@
 
 				</div>
 			</div>
-		</div>
-	</div>
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  </body>
-</html>
+		</div>'
