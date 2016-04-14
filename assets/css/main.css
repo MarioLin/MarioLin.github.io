@@ -75,9 +75,13 @@ span{
 	margin-bottom: 20px;
 }
 #blogHeader {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-family:'Trebuchet MS', Arial, sans-serif;
 }
 
 #blog_posts {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.blogrow {
+	margin-bottom: 30px;
 }
