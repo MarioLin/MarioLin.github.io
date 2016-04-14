@@ -11,7 +11,7 @@
 }
 
 .navbar-inverse .navbar-brand {
-	font-family:'Trebuchet MS', Arial, sans-serif;;
+	font-family:Futura,'Trebuchet MS', Arial, sans-serif;;
 	font-weight: 700;
 	letter-spacing: 2px;
 
@@ -20,7 +20,7 @@
 
 .navbar-inverse .navbar-nav > li > a {
 
-	font-family: 'Trebuchet MS', Arial, sans-serif;;
+	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;;
     font-weight: 700;
 
 	color: white;
@@ -37,7 +37,7 @@
 #welcome { 
 	padding-top: 20px;
 	padding-bottom: 70px;
-	font-family:'Trebuchet MS', Arial, sans-serif; }
+	font-family:Futura,'Trebuchet MS', Arial, sans-serif; }
 
 .text-center h1 {
 	padding-bottom: 20px;
@@ -75,11 +75,11 @@ span{
 	margin-bottom: 20px;
 }
 #blogHeader {
-	font-family:'Trebuchet MS', Arial, sans-serif;
+	font-family:Futura,'Trebuchet MS', Arial, sans-serif;
 }
 
 #blog_posts {
-	font-family: 'Trebuchet MS', Arial, sans-serif;
+	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 .blogrow {
