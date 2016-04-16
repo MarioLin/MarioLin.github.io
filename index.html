@@ -28,6 +28,7 @@
     <script src="assets/js/hover.zoom.conf.js"></script>
     <script src="assets/js/bootstrap.min.js"></script> 
 
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Josefin+Sans:100,300'rel='stylesheet' type='text/css'>
 
   </head>
 
@@ -35,7 +36,7 @@
 	
 	<div id="wrapper">
 	    <!-- Static navbar -->
-	    <div class="navbar navbar-inverse navbar-static-top">
+	    <div class="navbar navbar-inverse navbar-static-top" id="navigation">
 	      <div class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,7 +48,8 @@
 	        </div>
 	        <div class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="about.html">About</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#experiences">Experience</a></li>
 	            <li><a href="blog_page.html">Blog</a></li>
 	            <li><a href="contact_page.html">Contact</a></li>
 	          </ul>
@@ -55,27 +57,67 @@
 	      </div>
 	    </div>
 
-		<!-- +++++ Welcome Section +++++ -->
-		<div id="welcome">
+
+		<div class="header">
+			<div class="header-content">
+			<div class="header-name">Mario Lin</div>
+			<div class="header-sub">Welcome to my website!</div>
+			</div>
+
+		</div>
+
+
+
+		<!-- +++++ about Section +++++ -->
+		<div id="about" class="section">
 		    <div class="container">
 				<div class="row">
-					<div class="text-center">
-						<img id="my_img" src="assets/img/smaller_pic.jpg" HEIGHT="250" WIDTH="250" BORDER="0" alt="ML">
-						<h1>Welcome to my webpage!</h1>
-						<p>I'm currently a senior at UC Berkeley studying Computer Science. You can read more about me <a href="about.html">here</a>.</p>
-						<p>Read about my adventures <a href="blog_page.html">here</a>.</p>
+					<div class="text-center about_title title"> About Me </div>
 
+					<div class="col-md-6 img">
+						<div class="text-center">
+						<img id="my_img" src="assets/img/smaller_pic.jpg" HEIGHT="250" WIDTH="250" BORDER="0" alt="ML">
+						</div>
+					</div>
+
+					<div class="col-md-6 profile">
+						<p>Name: Mario Lin</p>
+						<p>School: UC Berkeley</p>
+						<p>Major: Computer Science</p>
+						<p>Graduating: Dec 2016 </p>
+						<p>Interests: Basketball, Eating, Technology, Finance</p>
+						</div>
 					</div>
 				</div>
 		    </div> 
-		</div>
 		<div class="clear"></div>
 		
+
+		<!-- experiences -->
+		<div id="experiences" class="section">
+			<div class="text-center experience-title title">Work Experience</div>
+
+			<div class="row">
+				<div class="text-center">
+				<div class="col-md-6">
+					<img class="logo" src="assets/img/foursquare.png">
+					<p> Software Engineer Intern </p>
+				</div></div>
+
+				<div class="text-center">
+
+				<div class="col-md-6">
+					<img class="logo" src="assets/img/veeva.png">
+					<p> Software Engineer Intern </p>
+
+
+				</div></div>
+			</div>
+		</div>
 		<!-- +++++ footer +++++ -->
 		
-		<div id="footer">
+		<div id="footer" style="background:white">
 			<div class="container">
-				<div class="navbar navbar-fixed-bottom">
 					<div class="row">
 						<div class=".col-md-4 text-center">
 							<div class="col-sm-4"></div>
@@ -99,7 +141,6 @@
 						</div>
 						
 
-				</div>
 			</div>
 		</div>
 	</div>

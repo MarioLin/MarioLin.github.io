@@ -1,17 +1,22 @@
 #footer {
-	color:#9999FF;
+	color:black;
 }
 
 #footer .text-center {
 	padding-top: 10px;
 	font-size: 15px;
 }
-.navbar-inverse {
+#navigation {
 	background-color: #9999FF;
+	font-family: 'Josefin Sans', sans-serif;
+
+
 }
 
+
 .navbar-inverse .navbar-brand {
-	font-family:Futura,'Trebuchet MS', Arial, sans-serif;;
+	font-family: 'Josefin Sans', sans-serif;
+
 	font-weight: 700;
 	letter-spacing: 2px;
 
@@ -20,32 +25,35 @@
 
 .navbar-inverse .navbar-nav > li > a {
 
-	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;;
+	font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 
 	color: white;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: purple;
 }
 
 #my_img {
     border-radius: 50%;
 }
 
-#welcome { 
-	padding-top: 20px;
-	padding-bottom: 70px;
-	font-family:Futura,'Trebuchet MS', Arial, sans-serif; }
+#about { 
+
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+ }
+
+.section {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
 
 .text-center h1 {
 	padding-bottom: 20px;
 	font-size: 50px;}
 
-.navbar-fixed-bottom {
-	background-color: #E6E6FF;
-}
 
 #blogHeader {
 	margin-bottom: 20px;
@@ -73,16 +81,98 @@ span{
 
 .postInfo {
 	margin-bottom: 20px;
+	font-style: italic;
 }
 #blogHeader {
-	font-family:Futura,'Trebuchet MS', Arial, sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #blog_posts {
-	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .blogrow {
 	margin-bottom: 30px;
+}
+
+
+.title {
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+	/*position: relative;*/
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	/*background-color: orange*/
+
+}
+
+.profile {
+	font-size: 25px;
+}
+body {
+	background: url(bg.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.header-content {
+	position : relative;
+	width : 50%;
+	height : 50%;
+	top:25%;
+	margin : 0 auto;
+	padding-top: 50px;
+}
+
+.header-name {
+	color: white;
+	font-size: 75px;
+	text-align: center; 
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header-sub {
+	color: white;
+	font-size: 27px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px; /* Remove the margin around the body */
+}
+
+.logo {
+	height: 100px;
+	margin-bottom: 15px;
+/*	border: 1px solid black;
+*/}
+
+#experiences {
+	font-family: 'Josefin Sans', sans-serif;
+
+	background-color: #d5ccff;
+}
+
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 155px; /* .push must be the same height as .footer */
 }
