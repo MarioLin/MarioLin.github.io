@@ -133,7 +133,7 @@ body {
 
 .header-name {
 	color: white;
-	font-size: 75px;
+	font-size: 60px; 
 	text-align: center; 
 	font-family: 'Josefin Sans', sans-serif;
 
@@ -148,7 +148,7 @@ body {
 
 
 .logo {
-	width: 200px;
+	height: 8vw;
 	margin-bottom: 15px;
 /*	border: 1px solid black;
 */}
