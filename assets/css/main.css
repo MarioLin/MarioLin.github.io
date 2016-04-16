@@ -1,6 +1,3 @@
-#footer {
-	color:black;
-}
 
 #footer .text-center {
 	padding-top: 10px;
@@ -42,9 +39,11 @@
 #about { 
 
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: white;
  }
 
+.odd {
+	background: rgba(255,255,255,0.45);
+}
 .section {
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -105,14 +104,16 @@ span{
 .header {
 	/*position: relative;*/
 	position: relative;
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	/*background-color: orange*/
 
 }
 
 .profile {
-	font-size: 25px;
+	font-size: 22px;
+	font-family: 'Quicksand';
+	margin-top: 15px;
 }
 body {
 	background: url(bg.jpg) no-repeat center center fixed; 
@@ -145,10 +146,6 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-html, body {
-    height: 100%;
-    margin: 0px; /* Remove the margin around the body */
-}
 
 .logo {
 	width: 200px;
@@ -159,19 +156,18 @@ html, body {
 #experiences {
 	font-family: 'Josefin Sans', sans-serif;
 
-	background-color: #d5ccff;
+	/*background-color: #d5ccff;*/
 }
 
+#contact {
+	font-family: 'Josefin Sans', sans-serif}
+}
 
-html, body {
-	height: 100%;
-}
-.wrapper {
-	min-height: 100%;
-	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
-	height: 100%;
-	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
-}
 .footer, .push {
 	height: 155px; /* .push must be the same height as .footer */
+}
+
+.general_text {
+	font-family: 'Quicksand';
+	font-size: 18px;
 }
