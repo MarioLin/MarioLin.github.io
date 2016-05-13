@@ -29,7 +29,7 @@
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: purple;
+	color: #e5ccff;
 }
 
 #my_img {
@@ -72,8 +72,7 @@ span{
 .userImg {
   position: absolute;
   border-radius: 50%;
-  bottom: -25px;
-  left: 45px;
+
   height: 60px;
   width: 60px;
 }
@@ -89,6 +88,13 @@ span{
 #blog_posts {
 	font-family: 'Josefin Sans', sans-serif;
 }
+.blogpost{
+	border:1px solid #ccb3ff;
+	border-radius: 25px;
+
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
 
 .blogrow {
 	margin-bottom: 30px;
@@ -97,6 +103,7 @@ span{
 
 .title {
 	padding-bottom: 10px;
+
 	font-size: 40px;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -167,4 +174,15 @@ body {
 .general_text {
 	font-family: 'Quicksand';
 	font-size: 18px;
+}
+
+.read-more-button a {
+	font-size: 18px;
+	color: #ccb3ff;
+	border:1px solid #ccb3ff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+
 }

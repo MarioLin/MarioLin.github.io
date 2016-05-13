@@ -10,6 +10,8 @@
 
     <title>Mario Lin</title>
 
+    <link rel="icon" href="favicon.png">
+
     <!-- CSS imports -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
@@ -26,7 +28,7 @@
 
   </head>
 
-  <body style="background:white">
+  <body style="background:#ffffff">
 	<div id="wrapper">
 	    <!-- Static navbar -->
 	    <div class="navbar navbar-inverse navbar-static-top" id="navigation">
@@ -45,7 +47,7 @@
 	            <li><a href="index.html#experiences">Experience</a></li>
 
 	            <li><a href="blog_page.html">Blog</a></li>
-	            <li><a href="contact_page.html">Contact</a></li>
+	            <li><a href="index.html#contact">Contact</a></li>
 	          </ul>
 	        </div>
 	      </div>
@@ -64,52 +66,81 @@
 
 		    	<!-- ROW #1 - reuse row template for each subsequent row of posts -->
 		    	<div class="row blogrow"> 
-		    	
+
 		    		<!-- POST #1 - reuse this template for all subsequent posts -->
-			    	<div id="post1" class="blogpost">
+			    	<div id="post1">
+
+
 			    		<div class="col-md-6">
-			    			<img class="blogImg" src="assets/img/exploreFront.png">
+			    				<div class="col-md-1"></div>
 
-			    			<!-- User and date information -->
-			    			<div class="row postInfo">
-				    			<div class="col-md-2">
-				    				<img class="userImg" src="assets/img/smaller_pic.jpg">
-				    			</div>
-				    			<div class="col-md-5 username">MARIO LIN</div>
-				    			<div class="col-md-5">
-				    				<div class="text-right date">April 13, 2016</div>
-				    			</div>
-			    			</div>
 
-			    			<!-- Content and summary information -->
-			    			<div> <h3> SF Adventure: Exploratorium! </h3> 
-			    			<p> That's my cousin in the pic, lol.</p>
-			    			</div>
-			    		</div>
+				    			<div class="col-md-10 blogpost">
+
+					    			<img class="blogImg" src="assets/img/exploreFront.png">
+
+					    			<!-- User and date information -->
+					    			<div class="row postInfo">
+
+						    			<div class="col-md-6 username">MARIO LIN</div>
+						    			<div class="col-md-6">
+						    				<div class="text-right date">April 13, 2016</div>
+						    			</div>
+					    			</div>
+
+					    			<!-- Content and summary information -->
+					    			<div> <h3> SF Adventure: Exploratorium! </h3> 
+					    			<p> That's my cousin in the pic, lol.</p>
+					    			</div>
+					    			
+					    			<!-- More Button -->
+					    			<div>
+					    				<div class="row read-more-button text-center">
+					    				<a href="index.html#experiences">READ MORE</a>
+					    				</div>
+					    			</div>
+
+				    			</div>
+				    			<div class="col-md-1"></div>
+
+				    	</div>
 	 				</div>
 
 	 				<!-- POST 2 of this row, reuse template! -->
-			    	<div id="post1" class="blogpost">
+			    	<div id="post2">
 			    		<div class="col-md-6">
-			    			<img class="blogImg" src="assets/img/thoughts.jpg">
+			    			<div class="col-md-1"></div>
 
-			    			<!-- User and date information -->
-			    			<div class="row postInfo">
-				    			<div class="col-md-2">
-				    				<img class="userImg" src="assets/img/smaller_pic.jpg">
+
+				    		<div class="col-md-10 blogpost">
+				    			<img class="blogImg" src="assets/img/thoughts.jpg">
+
+				    			<!-- User and date information -->
+				    			<div class="row postInfo">
+					    			<div class="col-md-6 username">
+					    				MARIO LIN
+					    			</div>
+					    			<div class="col-md-6">
+					    				<div class="text-right date">April 13, 2016</div>
+					    			</div>
 				    			</div>
-				    			<div class="col-md-5 username">
-				    				MARIO LIN
+
+				    			<!-- Content and summary information -->
+				    			<div> <h3> Just my thoughts. </h3> 
+				    			<p> What should I write about?</p>
 				    			</div>
-				    			<div class="col-md-5">
-				    				<div class="text-right date">April 13, 2016</div>
+
+				    			<!-- More Button -->
+				    			<div>
+				    				<div class="row read-more-button text-center">
+				    				<a href="index.html#experiences">READ MORE</a>
+				    				</div>
 				    			</div>
+
 			    			</div>
 
-			    			<!-- Content and summary information -->
-			    			<div> <h3> Just my thoughts. </h3> 
-			    			<p> What should I write about?</p>
-			    			</div>
+			    			<div class="col-md-1"></div>
+
 			    		</div>
 	 				</div>
 
