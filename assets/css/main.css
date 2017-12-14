@@ -10,6 +10,14 @@
 
 }
 
+.top-padded-experience-title .experience-title {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.top-padded-experience-title {
+	padding-top: 50px;
+}
 
 .navbar-inverse .navbar-brand {
 	font-family: 'Josefin Sans', sans-serif;
